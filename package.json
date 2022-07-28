@@ -1,0 +1,22 @@
+{
+  "name": "playwrite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testcase1": "npx playwright test --headed tests/testcase1.spec.js",
+    "testcase2": "npx playwright test --headed tests/testcase2.spec.js",
+    "testcase3": "npx playwright test --headed tests/testcase3.spec.js",
+    "testcase4": "npx playwright test --headed tests/testcase4.spec.js",
+    "testcase5": "npx playwright test --headed tests/testcase5.spec.js",
+    "report": "allure open allure-report",
+    "generate": "npx allure generate allure-results --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.24.1",
+    "allure-playwright": "^2.0.0-beta.18"
+  }
+}
