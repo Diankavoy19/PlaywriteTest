@@ -29,5 +29,5 @@ or for this project
 npm run generate
 npm run report
 ```
-You must have these allure reports:
+You must have these allure report:
 ![](https://diankavoy19.github.io/TestRail-Homework/picture/Screenshot_4.png)
