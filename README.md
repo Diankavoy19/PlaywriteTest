@@ -1,7 +1,6 @@
 # PlaywriteTest
 ### Description
 [Playwright framework for Web Testing and Automation](https://playwright.dev/) with [allure report](https://docs.qameta.io/allure/#_copyright). 
-
 ### Setup
 Before using a framework for Web Testing and Automation, you need to install [node.js](https://nodejs.org/en/), install all the dependencies for doing the full operation of the node.js.
 
