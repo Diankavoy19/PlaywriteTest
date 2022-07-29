@@ -10,7 +10,8 @@
     "testcase4": "npx playwright test --headed tests/testcase4.spec.js",
     "testcase5": "npx playwright test --headed tests/testcase5.spec.js",
     "report": "allure open allure-report",
-    "generate": "npx allure generate allure-results --clean"
+    "generate": "npx allure generate allure-results --clean",
+    "allureserve": "npx allure serve allure-results"
   },
   "keywords": [],
   "author": "",
