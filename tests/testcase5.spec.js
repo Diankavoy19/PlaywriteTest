@@ -10,6 +10,6 @@ test.describe("testcase #5", () => {
         await storage.click(storage.CheckboxSecond);
         await storage.hovertolocator(storage.SubmitButton);
         await storage.click(storage.SubmitButton);
-        await expect(storage.TextOnThePage).toHaveText('Revision 21728:21732');
+        await expect(storage.TextOnThePage).toHaveText('Revision 21729:21733');
     });
 });
